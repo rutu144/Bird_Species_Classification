@@ -1,11 +1,9 @@
-from pathlib import Path
-
-content = """# Bird Species Classification Using Audio and Machine Learning
+Bird Species Classification Using Audio and Machine Learning
 
 A Python mini-project that classifies bird species from audio recordings using **MFCC (Mel-Frequency Cepstral Coefficients)** features and a **Support Vector Machine (SVM)** classifier.
 
 The current prototype recognizes three classes:
-- Asian Koel (folder currently named `Asian coel`)
+- Asian Koel 
 - Crow
 - Sparrow
 
