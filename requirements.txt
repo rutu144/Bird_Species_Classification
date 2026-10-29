@@ -1,0 +1,16 @@
+from pathlib import Path
+
+content = """# Bird Species Classification - Python dependencies
+# Recommended interpreter: Python 3.10
+
+numpy
+pandas
+librosa
+scikit-learn
+joblib
+matplotlib
+soundfile
+"""
+path = Path("/mnt/data/requirements.txt")
+path.write_text(content, encoding="utf-8")
+print(f"Created: {path}")
